@@ -2,6 +2,8 @@ import turtle
 
 painter = turtle.Turtle()
 
+painter.pensize(20)
+
 for _ in range(18):
     # can use _ as a placeholder
     # remember that in range() is upper bound exclusive, so [0,4)
